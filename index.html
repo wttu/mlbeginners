@@ -1,54 +1,60 @@
-<p align="center">
 
-<table align="center" width="900">
-<div style="font-family:'Segoe UI';" >
-<head>
-<title>Wenting's homepage</title>
-</head>
-<table>
-<tbody>
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Wenting Tu's Homepage</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="shortcut icon" href="hku.png">
+    </head>
+    <script src="jquery-latest.js" type="text/javascript"></script>
+    <script src="author-list.js" type="text/javascript"></script>
+    <script src="paper-list.js" type="text/javascript"></script>
+    <script src="print-paper.js" type="text/javascript"></script>
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+         ga('create', 'UA-47008114-1', 'hku.hk');
+         ga('send', 'pageview');
+    </script>
+    <script>
+        function toggleAbstract(id) {
+            $("#"+id).slideToggle();
+            return(false);
+        };
+    </script>
+    <body>
+        <center>
+        <div class=container id="container">
 
-<tr valign="top">
-<td style="width:0px;height:872px">
-</td>
-<td style="width:906px;height:872px">
-<h1>
-  <br><br>Wenting Tu
-</h1> (Email: tu.wenting AT mail DOT shufe DOT edu DOT cn)
-
-<h2>Biography</h2>
-<p>I am currently an assistant professor at the <a href="http://sime.shufe.edu.cn/" target="_blank">School of Information Management and Engineering</a>, <a href="http://www.shufe.edu.cn/" target="_blank">Shanghai University of Finance and Economics (SHUFE)</a>. I received my PhD degree in <a href="http://www.cs.hku.hk/" target="_blank">computer science</a> from <a href="http://www.cs.hku.hk/" target="_blank">The University of Hong Kong (HKU)</a> in 2016, supervised by <a href="http://i.cs.hku.hk/~dcheung/" target="_blank">Prof. David Cheung</a> and <a href="http://i.cs.hku.hk/~nikos/" target="_blank">Prof. Nikos Mamoulis</a>. Before that, I received my M. S. degree from the <a href="http://www.cs.ecnu.edu.cn/" target="_blank">Department of Computer Science</a>, <a href="http://www.ecnu.edu.cn/" target="_blank">East China Normal University (ECNU)</a> in 2012, supervised by <a href="http://www.cst.ecnu.edu.cn/~slsun/" target="_blank">Prof. Shiliang Sun</a>. </p>
-<h2>Research Interests</h2>
-<p>I have broad interests in data mining, machine learning and nature language processing.</p>
-<!--<li>
-<h2>News</h2>
-<ul>
-<p>I'm graduated in 2016 and now assistant professor in CS department of Shanghai University of Finance and Economics.</p>
-<li>
-<p>4/2016: We have two papers (about big-data based investment and user profiling, respectively) accepted to&nbsp;<b>SIGIR</b>&nbsp;2016! (As short papers; Accept Ratio: 104 out of 339, 30.7%)</p>
-</li>
-<li>
-<p>2/2015: We have one paper (about recommendation systems) accepted to&nbsp;<b>PAKDD</b>&nbsp;2015! (Accept Ratio: 90 out of 405, 22.2%)</p>
-</li>
-<li>
-<p>My master theses "Domain Adaptation and User-Transfer based Personalization Applications" has been awarded as one of Shanghai Outstanding Theses (awarded by Shanghai Degree Committee)". [<a href="http://i.cs.hku.hk/~wttu/jpgs/SH-certificate.jpg" target="_blank">Certificate</a>]</p>
-</li></ul>
-
-<h2>Internship experiences</h2>
-<ul style="line-height:21.3333320617676px"><li>
-<p>Algorithm Engineer @&nbsp;<a href="http://www.dianping.com/" target="_blank">Dianping</a>&nbsp;(Chinese Yelp + Groupon),&nbsp;2011 - 2012<br>
-<b><i>Area of Research:&nbsp;</i></b>Machine Learning and Data Mining<br>
-<b><i>Outcomes:&nbsp;</i></b> CF based personalization recommendation systems and dynamical rank strategies for recommending groupon products.</p>
-</li>
-<li>
-<p>Algorithm Engineer @ <a href="http://www.cyyun.com/" target="_blank">Cyyun</a>&nbsp;(Public Opinion Analysis System), 2010 - 2011<br>
-<b><i>Area of Research:&nbsp;</i></b>Natural Language Processing<br>
-<b><i>Outcomes:&nbsp;</i></b> Keyword extraction, sentiment analysis and event detection modules for analyzing web-users postings.</p>
-</li>
-</ul> 
-</li>-->
-<h2>Teaching</h2>
-<ul>
+        <div>
+            <img src="./wttu-hp.jpg" alt="wttu-hp.jpg" width=220px height=250px align=right float=right style="margin-top:30px;margin-right:70px;">
+            <div style="margin-left:10px">
+                <br>
+                <h1>Wenting Tu</h1>
+            
+                <b>Address:</b>
+                <br>&nbsp;&nbsp; Department of Computer Science
+                <br>&nbsp;&nbsp; School of Information Management & Engineering
+                <br>&nbsp;&nbsp; Shanghai University of Finance and Economics 
+                <br>&nbsp;&nbsp; 777 Guoding Road, Yangpu District, Shanghai, China
+                <br>
+                <br><b>Email:</b>
+                <br>&nbsp;&nbsp; tu.wenting [at] mail [dot] shufe [dot] edu [dot] cn
+            </div>
+        </div>
+        
+        <br>
+        <hr>
+        
+        <div style="display: inline-block;">
+        I am currently an assistant professor at the <a href="http://sime.shufe.edu.cn/" target="_blank">School of Information Management and Engineering</a>, <a href="http://www.shufe.edu.cn/" target="_blank">Shanghai University of Finance and Economics (SHUFE)</a>. I received my PhD degree in <a href="http://www.cs.hku.hk/" target="_blank">computer science</a> from <a href="http://www.cs.hku.hk/" target="_blank">The University of Hong Kong (HKU)</a> in 2016, supervised by <a href="http://i.cs.hku.hk/~dcheung/" target="_blank">Prof. David Cheung</a> and <a href="http://i.cs.hku.hk/~nikos/" target="_blank">Prof. Nikos Mamoulis</a>. Before that, I received my M. S. degree from the <a href="http://www.cs.ecnu.edu.cn/" target="_blank">Department of Computer Science</a>, <a href="http://www.ecnu.edu.cn/" target="_blank">East China Normal University (ECNU)</a> in 2012, supervised by <a href="http://www.cst.ecnu.edu.cn/~slsun/" target="_blank">Prof. Shiliang Sun</a>. </p>
+        </div>
+        <br>
+        <hr>
+        <h1>Teaching</h1>
+<!--<ul>--><div style="margin-left:10px">
 <li>
 Text Mining (Fall, B.Sc. Course)
 </li>
@@ -59,8 +65,69 @@ Machine Learning (Fall, B.Sc. Course)
 Artificial Intelligence (Spring, B.Sc. Course)</li>
 <li>
 Machine Learning and Deep Learning (Spring, M.Sc. Course)</li>
-</ul>
-<h2>Publications (<a href="https://scholar.google.com/citations?user=2aO4XIMAAAAJ&hl=en" target="_blank">Google Schorlar</a>)</h2>
-<ul>
-<font size="3"><strong><b>Tags:</b>&nbsp;</strong><span style="color: rgb(229, 51, 51);">ML (Machine Learning)</span>, <span style="color: rgb(0, 153, 0);">NLP (Nature Language Processing)</span>, <span style="color: rgb(51, 127, 229);">DL (Deep Learning)</span>, <span style="color: rgb(255, 153, 0);">Forecasting</span>, <span style="color: rgb(238, 51, 238);">Recsys (Recommendation System)</span>, <span style="color: rgb(255, 229, 0);">Fintech</span>, <span style="color: rgb(223, 197, 164);">BCI</span>, <span style="color: rgb(100, 69, 29);">Security</span></font><h2><font size="4">2018:</font></h2></ul><ol><li><font size="3"><b>Wenting Tu,</b>&nbsp;Min Yang, David W.Cheung, Nikos Mamoulis:&nbsp;<b>Investment Recommendation by Discovering High-quality Opinions in Investor based Social Networks.</b>&nbsp;Information Systems, 2018 (In Press)[<span style="color: rgb(229, 51, 51);">M</span><span style="color: rgb(229, 51, 51);">L</span>+<span style="color: rgb(238, 51, 238);">Rec</span><span style="color: rgb(238, 51, 238);">sys</span>+<span style="color: rgb(255, 229, 0);">Fin</span><span style="color: rgb(255, 229, 0);">tech</span>]</font></li><li><font size="3">Min Yang, <b>Wenting Tu</b>*, Qiang Qu, Zhou Zhao, Xiaojun Chen, Jia Zhu<b>, Personalized Response Generation by Dual-learning based Domain Adaptation.&nbsp;</b>Neural Networks, 2018 (Accepted)&nbsp;[<span style="color: rgb(51, 127, 229);">D</span><span style="color: rgb(51, 127, 229);">L</span>+<span style="color: rgb(0, 153, 0);">N</span><span style="color: rgb(0, 153, 0);">L</span><span style="color: rgb(0, 153, 0);">P</span>]</font></li></ol><div><ul><h2><font size="4">2017:</font></h2></ul><ol><li><font size="3">Min Yang,&nbsp;<b>Wenting Tu</b>,&nbsp;Jingxuan Wang, Fei Xu, Xiaojun Chen:&nbsp;<b>Attention-based LSTM for Target-dependent Sentiment Classification.</b>&nbsp;Proceedings of the 31th AAAI Conference on Artificial Intelligence&nbsp;(AAAI), 2017 (poster) &nbsp;[<span style="color: rgb(51, 127, 229);">D</span><span style="color: rgb(51, 127, 229);">L</span>+<span style="color: rgb(0, 153, 0);">N</span><span style="color: rgb(0, 153, 0);">L</span><span style="color: rgb(0, 153, 0);">P</span>]</font></li><li><font size="3"><b>Wenting Tu,</b>&nbsp;David W.Cheung, Nikos Mamoulis:&nbsp;<b>More Focus on What You Care About: Personalized Top Reviews Set.</b>&nbsp;Neurocomputing, 2017 [<span style="color: rgb(0, 153, 0);">NLP</span>+<span style="color: rgb(238, 51, 238);">Recsys</span>]</font></li><li><font size="3">Min Yang, Xiaojun Chen<b>, Wenting Tu, </b>Ziyu Lu, Jia Zhu, Qiang Fin<b>, A Topic Drift Model for Authorship Attribution.&nbsp;</b>Neurocomputing, 2017 [</font><span ; color: rgb(0, 153, 0);">NLP<span style="color: rgba(0, 0, 0, 0.87);">]</span></span></li><li><font size="3"><b>Wenting Tu</b>, David W.Cheung, Nikos Mamoulis, Min Yang, Ziyu Lu:&nbsp;<b>Activity Recommendation with Partners.</b>&nbsp;ACM Transactions on the Web (TWEB)&nbsp;, 2017 [<span style="color: rgb(238, 51, 238);">Rec</span><span style="color: rgb(238, 51, 238);">sys</span>]&nbsp;</font></li><li><font size="3">Ziyu Lu, Hao Wang, Nikos Mamoulis,&nbsp;<b>Wenting Tu</b>, David W. Cheung:<b>&nbsp;Personalized Location Recommendation by Aggregating Multiple Recommenders in Diversity.&nbsp;</b>Geoinformatica, 2017 [<span style="color: rgb(238, 51, 238);">Rec</span><span style="color: rgb(238, 51, 238);">sys</span>+<span style="color: rgb(229, 51, 51);">M</span><span style="color: rgb(229, 51, 51);">L</span>]</font></li><li><font size="3">Jingxuan Wang, <b>Wenting Tu</b>, Lucas Chi Kwong Hui, Siu-Ming Yiu: <b>Detecting Time Synchronization Attacks in Cyber-Physical Systems with Machine Learning Techniques. </b>IEEE Proceedings of the 37th International Conference on Distributed Computing Systems (<strong>ICDCS</strong>), 2017 [<span style="color: rgb(229, 51, 51);">ML</span>+<span style="color: rgb(100, 69, 29);">Secur</span><span style="color: rgb(100, 69, 29);">ity</span>]</font></li></ol><div><ul><h2><font size="4">2016:</font></h2></ul></div><ol><li><font size="3"><b>Wenting Tu</b>, David W.Cheung, Nikos Mamoulis, Min Yang, Ziyu Lu: <b>Investment Recommendation using Investor Opinions in Social Media.</b> Proceedings of the 39th International ACM SIGIR Conference on Research and Development in Information Retrieval (<strong>SIGIR</strong>), 2016 (short paper) &nbsp;[<span style="color: rgb(229, 51, 51);">M</span><span style="color: rgb(229, 51, 51);">L</span>+<span style="color: rgb(238, 51, 238);">Rec</span><span style="color: rgb(238, 51, 238);">sys</span>+<span style="color: rgb(255, 229, 0);">Fin</span><span style="color: rgb(255, 229, 0);">tech</span>]</font></li><li><font size="3">Min Yang, Jincheng Mei, Fei Xu, <b>Wenting Tu</b>, Ziyu Lu:&nbsp;<b>Dyiscovering Author Interest Evolution in Topic Modeling.</b> Proceedings of the 39th International ACM SIGIR Conference on Research and Development in Information Retrieval (<strong>SIGIR</strong>), 2016&nbsp;(short paper) [<span style="color: rgb(0, 153, 0);">N</span><span style="color: rgb(0, 153, 0);">LP</span>+<span style="color: rgb(238, 51, 238);">Rec</span><span style="color: rgb(238, 51, 238);">sys</span>]</font></li></ol><p></p><h2><font size="4">2015:</font></h2><p></p><ol><li><font size="3"><b>Wenting Tu</b>, David W.Cheung, Nikos Mamoulis, Min Yang, Ziyu Lu:&nbsp;<b>Activity Partner Recommendation.</b> Proceedings of the 19th Pacific-Asia Conference on Knowledge Discovery and Data Mining (<strong>PAKDD</strong>), 2015 [<span style="color: rgb(238, 51, 238);">Rec</span><span style="color: rgb(238, 51, 238);">sys</span>]</font></li><li><font size="3"><b>Wenting Tu</b>, David W.Cheung, Nikos Mamoulis:&nbsp;<b>Time-sensitive Opinion Mining for Prediction. </b>Proceedings of the 29th AAAI Conference on Artificial Intelligence (<strong>AAAI</strong>), 2015 (poster) [<span style="color: rgb(0, 102, 0);">N</span><span style="color: rgb(0, 102, 0);">LP</span>+<span style="color: rgb(255, 229, 0);">Fin</span><span style="color: rgb(255, 229, 0);">tech</span>]</font></li><li><font size="3"><b>Wenting Tu,</b> David W.Cheung, Nikos Mamoulis:&nbsp;<b>Improving Microblog Rtrieval from Exterior Corpus by Automatically Constructing Microblogging Corpus.</b> Proceedings of the 29th AAAI Conference on Artificial Intelligence (<strong>AAAI</strong>), 2015 (poster) [<span style="color: rgb(0, 153, 0);">N</span><span style="color: rgb(0, 153, 0);">LP</span>]</font></li><li><font size="3"><b>Wenting Tu</b>, David W.Cheung, Nikos Mamoulis, Min Yang, Ziyu Lu:<b>&nbsp;Real-time Detection and Sorting of News on Microblogging Platforms.</b> Proceedings of the 29th Pacific Asia Conference on Language, Information and Computing (<strong>PACLIC</strong>), 2015 [<span style="color: rgb(0, 153, 0);">NL</span><span style="color: rgb(0, 153, 0);">P</span>]</font></li><li><font size="3">Min Yang, <b>Wenting Tu</b>, Wenpeng Yin, Ziyu Lu:<b>&nbsp;Deep Markov Neural Network for Sequential Data Classification.</b> Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics (<strong>ACL</strong>), 2015 [<span style="color: rgb(51, 127, 229);">D</span><span style="color: rgb(51, 127, 229);">L</span>+<span style="color: rgb(0, 153, 0);">N</span><span style="color: rgb(0, 153, 0);">LP</span>]</font></li><li><font size="3">Min Yang, <b>Wenting Tu</b>, Ziyu Lu, Kam-Pui Chow:&nbsp;<b>A Semi-supervised Model for Sentiment Classification.</b> Conference of the North American Chapter of the Association for Computational Linguistics (<strong>NAACL</strong>), 2015 [<span style="color: rgb(0, 153, 0);">N</span><span style="color: rgb(0, 153, 0);">LP</span>]</font></li><li><font size="3">Min Yang, Tianyi Cui, <b>Wenting Tu</b>:<b>&nbsp;</b><strong><b>Order-sensitive and Semantic-aware Topic Modeling Microblogging Corpus</b>.</strong> Proceedings of the 29th AAAI Conference on Artificial Intelligence (<strong>AAAI</strong>), 2015 [<span style="color: rgb(0, 153, 0);">NL</span><span style="color: rgb(0, 153, 0);">P</span>]</font></li><li><font size="3">Ziyu Lu, Hao Wang, Nikos Mamoulis,&nbsp;<b>Wenting Tu</b>, David W. Cheung:&nbsp;<b>Personalized Location Recommendation by Aggregating Multiple Recommenders in Diversity.&nbsp;</b>Proceedings of the 9th&nbsp;RecSys&nbsp;Workshop&nbsp;on Location-Aware Recommendations (LocalRec),&nbsp;2015 [<span style="color: rgb(238, 51, 238);">Re</span><span style="color: rgb(238, 51, 238);">csys</span>+<span style="color: rgb(229, 51, 51);">ML</span>]</font></li></ol><ul>
-<h2><font size="4">Before 2015:</font></h2></ul><ol><li><font size="3"><b>Wenting Tu,</b>&nbsp;Shiliang Sun:&nbsp;<b>Semi-supervised Feature Extraction for EEG Classification.</b>&nbsp;Pattern Analysis and Applications (PAA), 2013 [<span style="color: rgb(229, 51, 51);">ML</span>+<span style="color: rgb(223, 197, 164);">BCI</span>]</font></li><li><font size="3"><b>Wenting Tu</b>, Shiliang Sun:&nbsp;<b>A Subject Transfer Framework for EEG Classification.&nbsp;</b>Neurocomputing, 2012 [<span style="color: rgb(229, 51, 51);">ML</span>+<span style="color: rgb(223, 197, 164);">BCI</span>]</font></li><li><font size="3"><b>Wenting Tu</b>, Shiliang Sun:&nbsp;<b>Dynamical Ensemble Learning with Model-friendly Classifiers for Domain Adaptation.</b>&nbsp;Proceedings of the 21st International Conference on Pattern Recognition (ICPR), 2012 [<span style="color: rgb(229, 51, 51);">M</span><span style="color: rgb(229, 51, 51);">L</span>]</font></li><li><font size="3"><b>Wenting Tu</b>, Sun, Shiliang, <b>Cross-domain representation-learning framework with combination of class-separate and domain-merge objectives</b>, Workshop on Cross Domain Knowledge Discovery in Web and Social Network Mining (KDD-Workshop), 2012&nbsp;[<span style="color: rgb(229, 51, 51);">ML</span>]&nbsp;</font></li><li><font size="3"><b>Wenting Tu,</b>&nbsp;Shiliang Sun:&nbsp;<b>Transferable Discriminative Dimensionality Reduction.</b>&nbsp;Proceedings of the 23rd IEEE International Conference on Tools with Artificial Intelligence (ICTAI), 2011 [<span style="color: rgb(229, 51, 51);">ML</span>]</font></li><li><font size="3"><b>Wenting Tu</b>, Shiliang Sun:&nbsp;<b>Semi-supervised Feature Extraction with Local Temporal Regularization for EEG classification.&nbsp;</b>Proceedings of the 21st International Joint Conference on Neural Networks (IJCNN), 2011 [<span style="color: rgb(229, 51, 51);">ML</span>+<span style="color: rgb(223, 197, 164);">B</span><span style="color: rgb(223, 197, 164);">CI</span>]</font></li><li><font size="3"><b>Wenting Tu,</b>&nbsp;Shiliang Sun:<b>&nbsp;Importance Weighted Extreme Energy Ratio for EEG Classification.</b>&nbsp;Proceedings of the 17th International Conference on Neural Information Processing (ICONIP), 2011 [<span style="color: rgb(229, 51, 51);">ML</span>+<span style="color: rgb(223, 197, 164);">BCI</span>]</font></li><li><font size="3"><b>Wenting Tu,</b>&nbsp;Shiliang Sun:&nbsp;<b>Spatial Filter Selection with Lasso for EEG Classification.</b>&nbsp;Proceedings of the 6th International Conference on Advanced Data Mining and Applications (ADMA), 2010&nbsp;[<span style="color: rgb(229, 51, 51);">ML</span>+<span style="color: rgb(223, 197, 164);">BCI</span>]</font></li><li><font size="3">Shiliang Sun, Feng Jin,&nbsp;<b>Wenting Tu,</b>:&nbsp;<b>View construction for multi-view semi-supervised Learning.&nbsp;</b><font size="3">Proceedings of the 8th International Symposium on Neural Networks (ISNN), 2010 [<span style="color: rgb(229, 51, 51);">ML</span>]</font>
+<!--</ul>--></div>	       
+        <br>
+        <hr>
+        <h1>Research</h1>
+<h2>Research Interests</h2>
+<!--<ul>--><div style="margin-left:10px">
+<p>I have broad interests in data mining, machine learning and nature language processing.</p>
+<!--</ul>--></div>	
+<h2>Publications(<a href="https://scholar.google.com/citations?user=2aO4XIMAAAAJ&hl=en" target="_blank">Google Schorlar</a>)</h2>
+<!--<ul>--><div style="margin-left:10px">
+<font size="3"><strong><b>Tags:</b>&nbsp;</strong>
+<span style="color: rgb(229, 51, 51);">ML (Machine Learning)</span>, 
+<span style="color: rgb(0, 153, 0);">NLP (Nature Language Processing)</span>, 
+<span style="color: rgb(51, 127, 229);">DL (Deep Learning)</span>, 
+<span style="color: rgb(238, 51, 238);">Recsys (Recommendation Systems)</span>, 
+<span style="color: rgb(255, 229, 0);">Fintech</span>, 
+<span style="color: rgb(223, 197, 164);">BCI</span>, 
+<span style="color: rgb(255, 153, 0);">Security</span>,
+<!--<span style="color: rgb(100, 69, 29);">* (Corresponding author)</span></font> -->
+* (Corresponding author)</font>
+<h3><font size="4"><b>2018:</b></font></h3>
+<li><font size="3"><b>Wenting Tu,</b> Min Yang, David W.Cheung, Nikos Mamoulis: <b>Investment Recommendation by Discovering High-quality Opinions in Investor based Social Networks.</b> <i>Information Systems</i>, 2018 (In Press) [<span style="color: rgb(229, 51, 51);">ML</span>+<span style="color: rgb(238, 51, 238);">Recsys</span>+<span style="color: rgb(255, 229, 0);">Fintech</span>]</font></li>
+<li><font size="3">Min Yang, <b>Wenting Tu</b>*, Qiang Qu, Zhou Zhao, Xiaojun Chen, Jia Zhu: <b>Personalized Response Generation by Dual-learning based Domain Adaptation.</b> <i>Neural Networks</i>, 2018 (Accepted) [<span style="color: rgb(51, 127, 229);">DL</span>+<span style="color: rgb(0, 153, 0);">NLP</span>]</font></li>
+
+<h3><font size="4"><b>2017:</b></font></h3>
+<li><font size="3">Min Yang, <b>Wenting Tu</b>, Jingxuan Wang, Fei Xu, Xiaojun Chen: <b>Attention-based LSTM for Target-dependent Sentiment Classification.</b> <i>Proceedings of the 31th AAAI Conference on Artificial Intelligence (AAAI)</i>, 2017 (poster)  [<span style="color: rgb(51, 127, 229);">DL</span>+<span style="color: rgb(0, 153, 0);">NLP</span>]</font></li>
+<li><font size="3"><b>Wenting Tu,</b> David W.Cheung, Nikos Mamoulis:  <b>More Focus on What You Care About: Personalized Top Reviews Set.</b> <i>Neurocomputing</i>, 2017  [<span style="color: rgb(0, 153, 0);">NLP</span>+<span style="color: rgb(238, 51, 238);">Recsys</span>]</font></li>
+<li><font size="3">Min Yang, Xiaojun Chen, <b>Wenting Tu</b>, Ziyu Lu, Jia Zhu, Qiang Fin:  <b>A Topic Drift Model for Authorship Attribution.</b> <i>Neurocomputing</i>, 2017  [<span style="color: rgb(0, 153, 0);">NLP</span>]</font></li>
+<li><font size="3"><b>Wenting Tu,</b> David W.Cheung, Nikos Mamoulis, Min Yang,  Ziyu Lu:  <b>Activity Recommendation with Partners.</b> <i>ACM Transactions on the Web (TWEB)</i>, 2017  [<span style="color: rgb(238, 51, 238);">Recsys</span>]</font></li>
+<li><font size="3">Ziyu Lu, Hao Wang, Nikos Mamoulis, <b>Wenting Tu,</b> David W. Cheung:  <b>Personalized Location Recommendation by Aggregating Multiple Recommenders in Diversity. </b> <i>Geoinformatica</i>, 2017  [<span style="color: rgb(229, 51, 51);">ML</span>+<span style="color: rgb(238, 51, 238);">Recsys</span>]</font></li>
+<li><font size="3">Jingxuan Wang, <b>Wenting Tu,</b> Lucas Chi Kwong Hui, Siu-Ming Yiu:  <b>Detecting Time Synchronization Attacks in Cyber-Physical Systems with Machine Learning Techniques. </b> <i>IEEE Proceedings of the 37th International Conference on Distributed Computing Systems (ICDCS)</i>, 2017  [<span style="color: rgb(229, 51, 51);">ML</span>+<span style="color: rgb(255, 153, 0);">Security</span>]</font></li>	
+
+<h3><font size="4"><b>2016:</b></font></h3>	
+<li><font size="3"><b>Wenting Tu,</b> David W.Cheung, Nikos Mamoulis, Min Yang,  Ziyu Lu:  <b>Investment Recommendation using Investor Opinions in Social Media.</b> <i>Proceedings of the 39th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)</i>, 2016 (short paper) [<span style="color: rgb(229, 51, 51);">ML</span>+<span style="color: rgb(238, 51, 238);">Recsys</span>+<span style="color: rgb(255, 229, 0);">Fintech</span>]</font></li>
+<li><font size="3">Min Yang, Jincheng Mei, Fei Xu, <b>Wenting Tu,</b> Ziyu Lu:  <b>Discovering Author Interest Evolution in Topic Modeling.</b> <i>Proceedings of the 39th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)</i>, 2016 (short paper) [<span style="color: rgb(0, 153, 0);">NLP</span>+<span style="color: rgb(238, 51, 238);">Recsys</span>]</font></li>
+
+<h3><font size="4"><b>2015:</b></font></h3>
+<li><font size="3"><b>Wenting Tu,</b> David W.Cheung, Nikos Mamoulis, Min Yang,  Ziyu Lu:  <b>Activity Partner Recommendation.</b> <i>Proceedings of the 19th Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD)</i>, 2015  [<span style="color: rgb(238, 51, 238);">Recsys</span>]</font></li>	
+<li><font size="3"><b>Wenting Tu,</b> David W.Cheung, Nikos Mamoulis: <b>Time-sensitive Opinion Mining for Prediction. </b> <i>Proceedings of the 29th AAAI Conference on Artificial Intelligence (AAAI)</i>, 2015 (poster) [<span style="color: rgb(0, 153, 0);">NLP</span>+<span style="color: rgb(255, 229, 0);">Fintech</span>]</font></li>
+<li><font size="3"><b>Wenting Tu,</b> David W.Cheung, Nikos Mamoulis: <b> Improving Microblog Rtrieval from Exterior Corpus by Automatically Constructing Microblogging Corpus. </b> <i>Proceedings of the 29th AAAI Conference on Artificial Intelligence (AAAI)</i>, 2015 (poster) [<span style="color: rgb(0, 153, 0);">NLP</span>]</font></li>
+<li><font size="3"><b>Wenting Tu,</b> David W.Cheung, Nikos Mamoulis, Min Yang, Ziyu Lu: <b> Real-time Detection and Sorting of News on Microblogging Platforms. </b> <i>Proceedings of the 29th Pacific Asia Conference on Language, Information and Computing (PACLIC)</i>, 2015 (poster) [<span style="color: rgb(0, 153, 0);">NLP</span>]</font></li>
+<li><font size="3">Min Yang, <b>Wenting Tu,</b> Wenpeng Yin, Ziyu Lu: <b>Deep Markov Neural Network for Sequential Data Classification.</b> <i>Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics (ACL)</i>, 2015 (short paper) [<span style="color: rgb(51, 127, 229);">DL</span>+<span style="color: rgb(0, 153, 0);">NLP</span>]</font></li>
+<li><font size="3">Min Yang, <b>Wenting Tu,</b> Ziyu Lu, Kam-Pui Chow: <b>A Semi-supervised Model for Sentiment Classification.</b> <i>Conference of the North American Chapter of the Association for Computational Linguistics (NAACL)</i>, 2015 [<span style="color: rgb(0, 153, 0);">NLP</span>]</font></li>
+<li><font size="3">Min Yang, Tianyi Cui, <b>Wenting Tu</b>: <b>Order-sensitive and Semantic-aware Topic Modeling Microblogging Corpus.</b> <i>Proceedings of the 29th AAAI Conference on Artificial Intelligence (AAAI)</i>, 2015 [<span style="color: rgb(0, 153, 0);">NLP</span>]</font></li>
+<li><font size="3">Ziyu Lu, Hao Wang, Nikos Mamoulis, <b>Wenting Tu</b>, David W. Cheung: <b>Personalized Location Recommendation by Aggregating Multiple Recommenders in Diversity.</b> <i>Proceedings of the 9th RecSys Workshop on Location-Aware Recommendations (LocalRec)</i>, 2015 [<span style="color: rgb(238, 51, 238);">Recsys</span>]</font></li>
+
+<h3><font size="4"><b>Before 2015:</b></font></h3>
+<li><font size="3"><b>Wenting Tu,</b> Shiliang Sun: <b>Semi-supervised Feature Extraction for EEG Classification.</b> <i>Pattern Analysis and Applications (PAA)</i>, 2013  [<span style="color: rgb(229, 51, 51);">ML</span>+<span style="color: rgb(223, 197, 164);">BCI</span>]</font></li>
+<li><font size="3"><b>Wenting Tu,</b> Shiliang Sun: <b>Dynamical Ensemble Learning with Model-friendly Classifiers for Domain Adaptation.</b> <i>Proceedings of the 21st International Conference on Pattern Recognition (ICPR)</i>, 2012  [<span style="color: rgb(229, 51, 51);">ML</span>]</font></li>
+<li><font size="3"><b>Wenting Tu,</b> Shiliang Sun: <b>A Subject Transfer Framework for EEG Classification. </b> <i>Neurocomputing</i>, 2012  [<span style="color: rgb(229, 51, 51);">ML</span>+<span style="color: rgb(223, 197, 164);">BCI</span>]</font></li>	
+<li><font size="3"><b>Wenting Tu,</b> Shiliang Sun: <b>Cross-domain representation-learning framework with combination of class-separate and domain-merge objectives.</b> <i>Workshop on Cross Domain Knowledge Discovery in Web and Social Network Mining (KDD-Workshop)</i>, 2012  [<span style="color: rgb(229, 51, 51);">ML</span>]</font></li>
+<li><font size="3"><b>Wenting Tu,</b> Shiliang Sun: <b>Transferable Discriminative Dimensionality Reduction. </b> <i>Proceedings of the 23rd IEEE International Conference on Tools with Artificial Intelligence (ICTAI)</i>, 2011  [<span style="color: rgb(229, 51, 51);">ML</span>]</font></li>
+<li><font size="3"><b>Wenting Tu,</b> Shiliang Sun: <b>Semi-supervised Feature Extraction with Local Temporal Regularization for EEG classification.  </b> <i>Proceedings of the 21st International Joint Conference on Neural Networks (IJCNN)</i>, 2011  [<span style="color: rgb(229, 51, 51);">ML</span>+<span style="color: rgb(223, 197, 164);">BCI</span>]</font></li>
+<li><font size="3"><b>Wenting Tu,</b> Shiliang Sun: <b>Importance Weighted Extreme Energy Ratio for EEG Classification.  </b> <i>Proceedings of the 17th International Conference on Neural Information Processing (ICONIP)</i>, 2011  [<span style="color: rgb(229, 51, 51);">ML</span>+<span style="color: rgb(223, 197, 164);">BCI</span>]</font></li>
+<li><font size="3"><b>Wenting Tu,</b> Shiliang Sun: <b>Spatial Filter Selection with Lasso for EEG Classification.</b> <i>Proceedings of the 6th International Conference on Advanced Data Mining and Applications (ADMA)</i>, 2010  [<span style="color: rgb(229, 51, 51);">ML</span>+<span style="color: rgb(223, 197, 164);">BCI</span>]</font></li>
+<li><font size="3">Shiliang Sun, Feng Jin, <b>Wenting Tu</b>: <b>View construction for multi-view semi-supervised Learning.  </b> <i>Proceedings of the 8th International Symposium on Neural Networks (ISNN)</i>, 2010  [<span style="color: rgb(229, 51, 51);">ML</span>]</font></li>
+<!--</ul>--></div>		
+		
+        </div>
+        <div id="footer" width=800px style="text-align:right">
+            <br> 
+            <br>&nbsp;
+        </div>
+        </center>
+    </body>
+</html>
