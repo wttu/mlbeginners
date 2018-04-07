@@ -14,8 +14,8 @@ function printPaper(paper){
         for (i = 0; i < paper.tags.length; i++){
             document.write(paper.tags[i].name);
             if (i == paper.tags.length - 2)
-                document.write(" and ");
-            else if (i != paper.tags.length - 1) document.write(", ");
+                document.write("+");
+            else if (i != paper.tags.length - 1) document.write("+");
         }
         document.writeln("]");
     }
