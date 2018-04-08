@@ -2,11 +2,11 @@ body            {   margin:         auto;
                     background:     #CCCCCC;
                     font-size:      16pt;
                     font-family:    "Palatino Linotype", "Book Antiqua", Palatino, Georgia, serif;   }
-h1              {   font-size:      26pt; 
+h1              {   font-size:      24pt; 
                     font-style:     normal;
                     margin-top:     15px;
                     font-family:    "Palatino Linotype", "Book Antiqua", Palatino, Georgia, serif;  }
-h2              {   font-size:      19pt; 
+h2              {   font-size:      18pt; 
                     font-style:     normal;
                     font-family:    "Palatino Linotype", "Book Antiqua", Palatino, Georgia, serif;  }
 em.math         {   font-family:    "Times New Roman", Times, serif;
