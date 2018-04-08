@@ -1,0 +1,91 @@
+body            {   margin:         auto;
+                    background:     #CCCCCC;
+                    font-size:      12pt;
+                    font-family:    "Palatino Linotype", "Book Antiqua", Palatino, Georgia, serif;   }
+h1              {   font-size:      24pt; 
+                    font-style:     normal;
+                    margin-top:     15px;
+                    font-family:    "Palatino Linotype", "Book Antiqua", Palatino, Georgia, serif;  }
+h2              {   font-size:      18pt; 
+                    font-style:     normal;
+                    font-family:    "Palatino Linotype", "Book Antiqua", Palatino, Georgia, serif;  }
+em.math         {   font-family:    "Times New Roman", Times, serif;
+                    font-style:     normal;     }
+div.container   {   width:          750px;
+                    background:     Snow;
+                    padding-left:   40px;
+                    padding-right:  40px;
+                    padding-top:    20px;
+                    padding-bottom: 20px;
+                    border:         1px solid Grey;
+                    margin:         10px; 
+                    text-align:     left;      }
+div.header      {   width:          300px;
+                    margin-top:     0px;
+                    margin-left:    20px;
+                    margin-bottom:  20px;
+                    padding-top:    1px;
+                    float:          left;                           
+                    text-align:     left;       }
+div.menu        {   width:          150px;
+                    text-align:     center;      
+                    float:          left;       }
+div.photo       {   width:          250px;
+                    height:         250px;
+                    margin-top:     50px;
+                    margin-right:   25px;
+                    border:         1px solid Grey; }
+div.content     {   width:          800px;
+                    text-align:     center;
+                    float:          left;       }
+div.block       {   width:          750px; 
+                    padding-left:   20px; 
+                    padding-right:  20px; 
+                    padding-top:    5px; 
+                    padding-bottom: 5px; 
+                    border:         5px solid gray;
+                    margin:         10px; 
+                    text-align:     left;       
+                    border-radius:  20px;       }
+div.title       {   color:          Navy;   }
+div.abstract    {   display:        none;
+                    padding:        10px;
+                    margin:         10px;
+                    width:          625px;
+                    line-height:    1.4em;
+                    background-color:#DEEFF5;
+                    border:         1px solid gray;
+                    font-size:      11pt;       }
+.abstract p     {   margin:         5px;        }
+ul.circle       {   list-style-type:circle;     
+                    line-height:    1.4em;
+                    margin-left:    -15px;      }
+li.list         {   padding-left:   10px;       }
+ul.none         {   padding-left:   10px;       
+                    margin-left:    15px;
+                    list-style-type:none;       }
+li.paper        {   padding-left:    10px;
+                    margin-bottom:  10px;       }
+a               {   color:          RoyalBlue;  
+                    text-decoration:none;       }
+nav.navbar      {   width:          820px;
+                    height:         30px;       
+                    top:            0;
+                    font-family:    Helvetica, sans-serif;
+                    background:     Black;
+                    position:       fixed;      }
+ul.navbar       {   list-style-type:none;
+                    margin:         0 auto;
+                    width:          820px;
+                    height:         30px;       }
+li.navbar       {   float:          left;
+                    height:         30px;
+                    margin-left:    20px;
+                    margin-right:   20px;
+                    text-align:     center;
+                    display:        inline;
+                    line-height:    30px;       }
+a.navbar        {   color:          DarkGrey;
+                    text-decoration:none;
+                    display:        block;      }
+a.navbar:hover  {   color:          White;      }
