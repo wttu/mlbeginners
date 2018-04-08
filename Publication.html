@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+		<title>Publication</title>
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <script src="./js/jquery-latest.js" type="text/javascript"></script><script src="./js/tag-list.js" type="text/javascript"></script><script src="./js/author-list.js" type="text/javascript"></script><script src="./js/paper-list.js" type="text/javascript"></script><script src="./js/print-paper.js" type="text/javascript"></script><script>
+        function toggleAbstract(id) {
+            $("#"+id).slideToggle();
+            return(false);
+        };
+    </script></head>
+    
+    
+    
+    
+    
+    <body>
+    <center>
+    <div class="container">
+  <p align="right"><a href ="Publication.html"><img src="figures/cn_icon.png" alt="[Chinese]" width=40px height=40px></a><a href ="indexen.html"><img src="figures/en_icon.png" alt="[English]" width=40px height=40px ></a></p>
+        <center>
+        <p>[<a href="./index.html">自我介绍</a>] [<a href="./Publication.html">发表论文</a>] [<a href="./Research.html">研究内容</a>] [<a href="./Teaching.html">教学情况</a>] [<a href="./Recruitment.html">招生情况</a>]</p>
+        </center>
+		<h1>学位论文</h1>
+        <ul class="circle">
+            <script>
+                var i;
+                for (i = 0; i < papers.length; i++) {
+                    if (papers[i].type.search("d") >= 0) {
+                        document.write("<li class=paper>");
+                        printPaper(papers[i]);
+                        document.write("</li>");
+                    }
+                }
+            </script>
+        </ul>
+        <h1>Publications (<a href="https://scholar.google.com/citations?user=2aO4XIMAAAAJ&hl=en" target="_blank">Google Schorlar</a>)</h1>		
+        <font size="3"><strong><b>Tags:</b>&nbsp;</strong>
+        <span style="color: rgb(229, 51, 51);">ML (Machine Learning)</span>, 
+        <span style="color: rgb(0, 153, 0);">NLP (Nature Language Processing)</span>, 
+        <span style="color: rgb(51, 127, 229);">DL (Deep Learning)</span>, 
+        <span style="color: rgb(238, 51, 238);">Recsys (Recommendation Systems)</span>, 
+        <span style="color: rgb(255, 229, 0);">Fintech</span>, 
+        <span style="color: rgb(223, 197, 164);">BCI (Brain-computer Interface)</span>, 
+        <span style="color: rgb(255, 153, 0);">Security</span>,
+        * (Corresponding author)</font>
+		
+		<h2>2018</h2>
+        <ul class="circle">
+            <script>
+                var i;
+                for (i = 0; i < papers.length; i++) {
+                    if (papers[i].year.search("2018") >= 0) {
+                        document.write("<li class=paper>");
+                        printPaper(papers[i]);
+                        document.write("</li>");
+                    }
+                }
+            </script>
+        </ul>
+
+		<h2>2017</h2>
+        <ul class="circle">
+            <script>
+                var i;
+                for (i = 0; i < papers.length; i++) {
+                    if (papers[i].year.search("2017") >= 0) {
+                        document.write("<li class=paper>");
+                        printPaper(papers[i]);
+                        document.write("</li>");
+                    }
+                }
+            </script>
+        </ul>
+
+		<h2>2016</h2>
+        <ul class="circle">
+            <script>
+                var i;
+                for (i = 0; i < papers.length; i++) {
+                    if (papers[i].year.search("2016") >= 0) {
+                        document.write("<li class=paper>");
+                        printPaper(papers[i]);
+                        document.write("</li>");
+                    }
+                }
+            </script>
+        </ul>
+		
+		<h2>2015</h2>
+        <ul class="circle">
+            <script>
+                var i;
+                for (i = 0; i < papers.length; i++) {
+                    if (papers[i].year.search("2015") >= 0) {
+                        document.write("<li class=paper>");
+                        printPaper(papers[i]);
+                        document.write("</li>");
+                    }
+                }
+            </script>
+        </ul>
+		
+		<h2>Before 2015</h2>
+        <ul class="circle">
+            <script>
+                var i;
+                for (i = 0; i < papers.length; i++) {
+                    if (papers[i].year.search("2014b") >= 0) {
+                        document.write("<li class=paper>");
+                        printPaper(papers[i]);
+                        document.write("</li>");
+                    }
+                }
+            </script>
+        </ul>
+<!--	
+	<h2>Journal Papers</h2>
+        <ul class="circle">
+            <script>
+                var i;
+                for (i = 0; i < papers.length; i++) {
+                    if (papers[i].type.search("g") >= 0) {
+                        document.write("<li class=paper>");
+                        printPaper(papers[i]);
+                        document.write("</li>");
+                    }
+                }
+            </script>
+        </ul>
+
+
+    <h2>Conference Papers</h2>
+    <ul class="circle">
+        <script>
+            var i;
+            for (i = 0; i < papers.length; i++) {
+                if (papers[i].type.search("p") >= 0) {
+                    document.write("<li class=paper>");
+                    printPaper(papers[i]);
+                    document.write("</li>");
+                }
+            }
+        </script>
+        </ul>
+-->		
+        <div id="footer" width=800px style="text-align:right">
+            <br> 
+        </div>
+        </center>
+	    </div>
+
+</body></html>
