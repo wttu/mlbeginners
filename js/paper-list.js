@@ -37,7 +37,7 @@ var papers = new Array (
         id : "pds_NN",
         name : "Personalized Response Generation by Dual-learning based Domain Adaptation.",
 		tags : new Array(tagList.dl, tagList.nlp),
-        coauthors : new Array(authorList.myang, authorList.wttu_c, authorList.qqiang, authorList.zzhao, authorList.xjchen, authorList.jzhu),
+        coauthors : new Array(authorList.myang, authorList.wttu, authorList.qqiang, authorList.zzhao, authorList.xjchen, authorList.jzhu),
         conference : "Neural Networs",
         type : "j",
 		year : "2018",
