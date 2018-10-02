@@ -20,7 +20,17 @@ var papers = new Array (
         paperAbstract : "<p>本文专注于域适应算法上的研究,并探索域适应算法在基于用户迁移的个性化机器学习上的应用潜力。在理论方面,本文提出了三种创新的域适应算法。另外本文在实际应用方法特别提出了利用域适应算法来实现基于用户迁移的机器学习应用,并以脑电信号分类系统为例展现了这一思想的重要性和可行性。 域适应问题在机器学习领域已获得了越来越广泛的关注。它对应于训练样本和测试样本是基于不同分布的情景,这在真实的应用上是非常普遍的。例如对于面向用户的服务型机器学习应用(例如脑电分类,语音识别,脸部识别)上,常常为了提高用户体验以及一些实际的约束而面临训练样本和测试样本是来自于不同的用户群体,此时由于用户群体上的分类模式差异,会导致训练模型不适合目标用户。又例如自然语言处理中,也常常要面临训练预料和测试样例的数据分布差异。所以,域适应是一个十分具有研究价值的问题。本文提出了三种创新的域适应算法,从特征表示和分类模型阶段都对传统方法做出了改进,并以脑电信号分类为例探讨它们在实现基于用户迁移的机器学习应用上的前景。 本文提出的第一个域适应的算法是可迁移的判别式特征降维方法,它从判别性和迁移性两个方面来同时优化低维空间。从而避免了传统的判别性降维方法得到的低维空间将过拟合于源数据的危险。它通过设计度量域适应情景中低维空间的判别性和迁移性的数学项,然后通过优化由它们构成的目标函数来学习到低维空间。从而使得在低维空间中,不仅保持了数据的判别性,也能够增加源域模型对于目标域的迁移性。本文通过利用模拟数据和真实数据上的实验来验证了算法能够学习到一个更加适合域适应情景的低维空间。并通过可视化这些低维空间来更加验证了它们的优势。 本文提出的第二个算法是基于稳健适应双视角和反向近邻策略的动态域适应,它的思想是利用集成学习框架来结合多个源用户数据产生的基本模型。算法在两个层次上提出了创新,在构建基本模型集合时,从适应性和稳健性两方面来进行优化从而构建具有互补性的基本模型集。适应性是针对于适应目标域而言,稳健性是针对于能够稳健于域之间差异而言。另外,在决定模型权值层次上,算法利用了基于反向近邻策略的动态加权准则。利用每个测试样本在源数据上的近邻们的结构来动态决定权值。在九个真实数据上的实验表明了算法的有效性。 本文提出的最后一个算法是针对于消除对目标域样本限制的出发点设计的域适应算法。通过利用集成学习框架将动态分配权值转化为可以利用统计分类理论的二类分类问题,算法为每个基本模型建立了一个模型友好分类器,这个分类器的训练目标是为了预测一个样本是否适合于对应模型来进行后续任务。如此,针对于每个测试样本,能够根据基本模型集的模型友好分类器集的结果来决定最后在组合分类器中的权值。算法不要求目标域具有训练或测试样本,只是根据源域和目标域的分布不同的事实来更加小心地决定权值,从而增加模型对于测试样本的泛化性能。在真实数据集上的实验结果证明了算法的有效性。 总结下来,本文不仅从理论上提出了域适应领域的创新算法,也结合探讨了有前景的应用方向。从理论和应用两个层次上都具有一定的创新价值。</p>",
     },	
 	
-
+    {
+        id : "smucf_ictai",
+        name : "A Stock-movement aware Approach for Discovering Investors' Personalized Preferences in Stock Markets.",
+        coauthors : new Array(authorList.jchang, authorList.wttu_c),
+		tags : new Array(tagList.recsys, tagList.fintech),
+        conference : "Proceedings of the 30th IEEE International Conference on Tools with Artificial Intelligence (ICTAI)",
+        type : "c",
+		year : "2018",
+        paperAbstract : "<p>It is very useful to endow machines with the ability to understand users' personalized preferences. In this paper, we propose a novel methodology for discovering investors' personalized preferences in stock markets. Our work is able to estimate investors' personalized preferences for each stock and thus helpful for realizing investment recommendation, for instance through recommending real-time news or others' opinions to stocks preferred by the target user. Compared to conventional approaches, our method effectively incorporates stock movements for estimating investors' preference. By capturing stock-movement patterns influencing users' preferences, our method can find users with a similar investment philosophy and then increase the effect of preference prediction. An experimental evaluation with two real-world datasets demonstrates the effectiveness of our approach.</p>",
+    },	
+	
     {
         id : "irec_IS",
         name : "Investment Recommendation by Discovering High-quality Opinions in Investor based Social Networks.",
