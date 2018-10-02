@@ -10,12 +10,12 @@ var authorList = {
     },
 
     jchang : {
-        name : "Jun Chang (s)",
+        name : "Jun Chang (stu.)",
     },
 
 
     cqin : {
-        name : "Qin Chuan (s)",
+        name : "Qin Chuan (stu.)",
     },
 	
     myang : {
