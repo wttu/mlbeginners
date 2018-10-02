@@ -8,6 +8,15 @@ var authorList = {
         name : "Wenting Tu*",
         web : "http://wttu.github.io"
     },
+
+    jchang : {
+        name : "Jun Chang (s)",
+    },
+
+
+    cqin : {
+        name : "Qin Chuan (s)",
+    },
 	
     myang : {
         name : "Min Yang",
